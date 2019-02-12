@@ -1,11 +1,15 @@
 {
-  "name": "tonys",
+  "name": "tonys-pizza",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^1.1.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.5"
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-slick": "^0.23.2"
   },
   "scripts": {
     "start": "react-scripts start",
