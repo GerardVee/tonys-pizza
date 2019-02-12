@@ -1,0 +1,6 @@
+{
+    "apps" : [{
+        "name": "tonys.gerardvee.com",
+        "script": "node server.js"
+    }]
+}
