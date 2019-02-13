@@ -1,6 +1,7 @@
 {
     "apps" : [{
         "name": "tonys.gerardvee.com",
-        "script": "./server.js"
+        "cwd": "~/tonys",
+        "script": "server.js"
     }]
 }
