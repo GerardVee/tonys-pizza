@@ -1,6 +1,8 @@
 {
     "apps" : [{
         "name": "tonys.gerardvee.com",
-        "script": "./server.js"
+        "script": "yarn",
+        "args": "run server",
+        "interpreter": "/bin/bash"
     }]
 }
