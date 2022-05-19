@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-prod": "serve -s build -l 8081",
-    "start-server": "set NODE_OPTIONS=--openssl-legacy-provider react-scripts build && pm2 start yarn --name \"tonys\" -- run start-prod"
+    "start-server": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && pm2 restart yarn --name \"tonys\" -- run start-prod"
   },
   "eslintConfig": {
     "extends": "react-app"
