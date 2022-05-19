@@ -1,6 +1,7 @@
 {
   "name": "tonys-pizza",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "google-map-react": "^1.1.2",
