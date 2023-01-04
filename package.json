@@ -1,20 +1,23 @@
 {
+  "homepage": "https://gerardvee.github.io/tonys-pizza/",
   "name": "tonys-pizza",
   "version": "0.1.0",
-  "homepage": "./",
   "private": true,
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "google-map-react": "^1.1.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.23.2"
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-prod": "serve -s build -l 8081",
