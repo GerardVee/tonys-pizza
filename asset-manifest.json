@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tonys-pizza/static/css/main.7a9f2880.css",
+    "main.js": "/tonys-pizza/static/js/main.ff447981.js",
+    "index.html": "/tonys-pizza/index.html",
+    "main.7a9f2880.css.map": "/tonys-pizza/static/css/main.7a9f2880.css.map",
+    "main.ff447981.js.map": "/tonys-pizza/static/js/main.ff447981.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a9f2880.css",
+    "static/js/main.ff447981.js"
+  ]
+}
